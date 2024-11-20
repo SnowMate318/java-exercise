@@ -1,4 +1,4 @@
-package Class;
+package Class.super_참조변수;
 
 public class Super {
 
@@ -57,6 +57,6 @@ class Child extends Parent {
     }
 
     public void printABCD() {
-        System.out.println("a= "+a+" b= "+b+" c= "+c+" d= "+d);
+        System.out.println("a = "+a+", b = "+b+", c = "+c+", d = "+d);
     }
 }
